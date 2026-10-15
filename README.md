@@ -47,6 +47,7 @@ All progress remains in browser local storage. There is no account system or clo
 
 - **Assessment Centre:** `assessment/index.html` — interactive MCQs for business foundations, marketing and a business case, with immediate explanations and locally stored result history.
 - **Business Break-Even Calculator:** `tools/business-break-even-calculator.html` — contribution, break-even units/revenue, operating profit, margin of safety and CSV export.
-- Homepage navigation now links to the assessment centre and both simulators. Catalogue items for the Marketing Budget Simulator and Business Break-Even Calculator route directly to their tools.
+- **Pricing & Cash Flow Lab:** `tools/pricing-cash-flow-lab.html` — models contribution, contribution margin, break-even volume, operating profit, sales cash collection, simplified closing cash and cash runway; supports CSV export.
+- Homepage navigation now links to the assessment centre and the Marketing Budget, Break-Even, and Pricing & Cash Flow tools. Catalogue items for the Marketing Budget Simulator and Business Break-Even Calculator route directly to their tools.
 
 All assessments and calculations are educational practice only. Results are stored locally in the current browser; no account or cloud synchronization is provided.
