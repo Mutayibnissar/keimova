@@ -44,6 +44,10 @@ Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub inte
 All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
 
 
+## Study Assistant
+
+- **Study Assistant:** `study-assistant/index.html` — guided modes for concept scaffolding, retrieval-practice prompts, case-study structure and prompt improvement. The current interface is a transparent template-based demo; it is not connected to a language model or external API. A production AI connection needs a secured server-side endpoint and API key stored as a server secret.
+
 ## Practical Project Lab
 
 - **Practical Project Lab:** `project-lab/index.html` — fictional marketing, finance and HR cases; learner response fields; a transparent 10-point completeness rubric; browser-local drafts and history; JSON export. The automated rubric uses simple text checks and is a reflection aid, not an AI evaluator or formal grading system.
