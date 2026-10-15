@@ -4,6 +4,7 @@ Keimova is a responsive learning-hub prototype for practical business, career an
 
 ## Current prototype
 - Five catalogues: Courses, Roadmaps, Masterclasses, Resources and Simulators
+- First interactive course: `courses/business-administration-essentials.html` with five lessons, completion tracking, knowledge-check feedback and source links
 - Search, subject filters, level filters and alphabetical sorting
 - Learning-item detail modals with learning objectives and topic-specific Google Scholar/trusted reference links
 - Evidence-source hierarchy and publishing/review checklist in `SOURCES.md`
