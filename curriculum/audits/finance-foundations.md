@@ -44,3 +44,20 @@ The course remains **source-mapped — review in progress**. OpenStax pages are 
 - Updated the course's budgeting lesson to link directly to sections 7.5 and 8.5, and replaced a Scholar search on working capital with the relevant cash-flow and working-capital sections. The fictional ₹45,000 actual spend against ₹40,000 budget yields a ₹5,000 overspend; this arithmetic does not by itself prove poor performance or campaign failure.
 
 Open work: review the precise definitions and context of all ratio formulas, confirm debt-to-equity wording for the intended accounting context, check the cash-flow lesson against its source text, and conduct independent accountant, licensing and browser-interaction review. Status remains **source-mapped — review in progress**.
+
+
+## Follow-up ratio formula audit — 15 October 2026
+
+### Direct source sections inspected
+- OpenStax *Principles of Finance* §6.3 covers liquidity ratios, including current, quick and cash ratios. The current ratio is a broad liquidity measure and does not guarantee that current assets can be converted to cash when bills fall due: https://openstax.org/books/principles-finance/pages/6-3-liquidity-ratios.
+- OpenStax §6.4 defines the debt-to-equity ratio in its framework as **total liabilities ÷ total stockholders' equity** and explains that the numerator/denominator definitions matter. Other analysts may use a narrower debt-only numerator, so a comparison must state the convention: https://openstax.org/books/principles-finance/pages/6-4-solvency-ratios.
+- OpenStax §6.6 covers profitability ratios including profit margin, return on assets and return on equity, and recommends contextual interpretation rather than treating a single ratio as a complete performance verdict: https://openstax.org/books/principles-finance/pages/6-6-profitability-ratios-and-the-dupont-method.
+- OpenStax Chapter 6 summary states that ratios support trend and peer comparisons but have limitations and should be used alongside other contextual information: https://openstax.org/books/principles-finance/pages/6-summary.
+
+### Course correction
+- The lesson now states the debt-to-equity formula used by the cited OpenStax framework, rather than saying only that definitions vary. It also tells learners to state the numerator convention and flags zero/negative equity as a significant interpretation issue.
+- Added direct section links for liquidity, solvency and profitability rather than relying on a chapter summary alone.
+- Current ratio and net profit margin expressions were checked for basic formula consistency. No numerical ratio example is included in this lesson, so there is no new ratio arithmetic to validate.
+
+### Remaining review
+This source supports an introductory framework, not every accounting standard, covenant or lender convention. Confirm formulas against the relevant reporting rules and comparison set for real cases. Independent accountant review, licensing review and browser interaction tests remain outstanding. Keep status **source-mapped — review in progress**; no claim of professional certification or validated assessment.
