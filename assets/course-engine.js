@@ -3,7 +3,7 @@
 "use strict";
 const cfg=window.KEIMOVA_COURSE;
 if(!cfg||!Array.isArray(cfg.lessons)||!cfg.lessons.length){console.error("Keimova course data is missing.");return;}
-const $=id=>document.getElementById(id),key=cfg.storageKey||("keimova-course-"+(cfg.id||"custom")+"-v1");
+const $=id=>document.getElementById(id),key=cfg.storageKey||("keimova-course-"+(cfg.id||"custom")+"-v1");if(!$("storageStatus")){const status=document.createElement("p");status.id="storageStatus";status.className="muted";status.setAttribute("role","status");status.setAttribute("aria-live","polite");const resetButton=$("resetCourse");if(resetButton)resetButton.insertAdjacentElement("afterend",status);}
 function read(){try{const x=JSON.parse(localStorage.getItem(key)||"{}");const completed=Array.isArray(x.completed)?[...new Set(x.completed.filter(i=>Number.isInteger(i)&&i>=0&&i<cfg.lessons.length))].sort((a,b)=>a-b):[];const quiz=x.quiz&&Number.isFinite(x.quiz.score)&&Number.isFinite(x.quiz.total)&&x.quiz.total>0?x.quiz:null;return{completed,quiz,notes:typeof x.notes==="string"?x.notes:"",lastLesson:Number.isInteger(x.lastLesson)&&x.lastLesson>=0&&x.lastLesson<cfg.lessons.length?x.lastLesson:0}}catch{return{completed:[],quiz:null,notes:"",lastLesson:0}}}
 let state=read(),active=Math.max(0,Math.min(state.lastLesson,cfg.lessons.length-1)),choice=null,checked=false;
 $("courseTitle").textContent=cfg.title;$("courseSubtitle").textContent=cfg.subtitle||"Learn the concepts, practise the decisions, and check your understanding.";$("courseEyebrow").textContent=cfg.category||"INTERACTIVE COURSE";$("lessonCount").textContent=cfg.lessons.length+" lessons";
