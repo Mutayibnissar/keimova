@@ -38,3 +38,26 @@ Reviewed the five lesson summaries, the three-question knowledge check, the fict
 ## Publication decision
 
 Keep the course label **“source-mapped — review in progress.”** Do not label it “verified”, “peer-reviewed”, or “research-backed” until a human reviewer has completed the claim-by-claim evidence check, assessment review, and licence review.
+
+
+## Source inspection log — 15 October 2026
+
+### OpenStax section 1.3: Major Characteristics of the Manager's Job
+The official section identifies managerial responsibilities including planning, controlling, environmental scanning, supervision and coordination, and discusses differences by management level and function. This supports the course's high-level summary of management activities. The lesson's four-part planning/organising/leading/controlling mnemonic is a simplified teaching framework; it should not be read as a full account of managerial work. Source inspected: https://openstax.org/books/principles-management/pages/1-3-major-characteristics-of-the-managers-job.
+
+### OpenStax section 4.1: The Organization's External Environment
+The section defines the external environment and describes economic, sociocultural, technological, political/governmental and other forces that affect organisations. This supports the lesson's environmental scan examples. The chapter notes that organisational context affects how forces matter; the course's list is an introductory checklist, not an exhaustive model. Source inspected: https://openstax.org/books/principles-management/pages/4-1-the-organizations-external-environment.
+
+### OpenStax section 4.3: Organizational Designs and Structures
+The section compares structural forms and explains that strengths, weaknesses and fit depend on the environment and organisational needs. This supports the course's caution that no single structure suits every organisation. The case-based decision routine is Keimova's own teaching framework, not a validated model attributed to OpenStax. Source inspected: https://openstax.org/books/principles-management/pages/4-3-organizational-designs-and-structures.
+
+### Licensing decision
+The official OpenStax *Principles of Management* preface states CC BY-NC-SA terms, non-commercial limits, share-alike and attribution requirements, and a restriction on ingesting the textbook into generative-AI offerings without prior written permission. Keimova currently links to the original sections and presents original explanations rather than reproducing the textbook text. Do not copy or adapt textbook passages, figures, activities or assessments into a commercial offering without an explicit licensing review and any required permission. Sources: https://openstax.org/books/principles-management/pages/preface and https://help.openstax.org/s/article/Commercial-use-under-the-Creative-Commons-License.
+
+### Assessment and example checks
+- Stakeholder quiz key and explanations remain consistent with the lesson's broad definition of stakeholders.
+- Fictional case calculation: 30 missed dispatches / 200 orders = 0.15 = 15%. This is arithmetic from the invented scenario, not an industry benchmark.
+- These checks establish internal consistency only. They do not validate the quiz psychometrically or verify every sentence of the lesson.
+
+### Remaining work
+Human claim-by-claim review, a separate licence/legal review before commercial release, cross-browser/mobile interaction testing and a review of any empirical claims added in future. No individual scholarly paper is currently used as a verified empirical basis for this course. Keep status as **source-mapped — review in progress**.
