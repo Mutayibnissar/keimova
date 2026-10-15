@@ -56,6 +56,11 @@ All progress remains in browser local storage. There is no account system or clo
 
 - The dashboard includes a five-stage journey tracker: choose a path, learn, get study support, apply knowledge, and test understanding. It reads local browser activity from the learning path, six course records, study-guide count, project history, and assessment history. No cloud sync or account profile is implied.
 
+## Live AI Study Assistant (optional backend)
+
+- `backend/cloudflare-worker.js` is a separate Cloudflare Worker template that calls the OpenAI Responses API without exposing the API key in the browser. Setup: `docs/AI_BACKEND_SETUP.md`.
+- The Study Assistant can save a Worker endpoint locally and call it for live AI responses. Without a deployed/configured backend, it remains in guided demo mode. API usage may incur charges.
+
 ## Study Assistant
 
 - **Study Assistant:** `study-assistant/index.html` — guided modes for concept scaffolding, retrieval-practice prompts, case-study structure and prompt improvement. The current interface is a transparent template-based demo; it is not connected to a language model or external API. A production AI connection needs a secured server-side endpoint and API key stored as a server secret.
