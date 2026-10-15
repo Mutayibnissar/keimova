@@ -41,3 +41,12 @@ Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub inte
 - **Interactive courses:** `courses/business-administration-essentials.html` and `courses/marketing-strategy-growth.html`.
 
 All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
+
+
+## Assessment and finance practice
+
+- **Assessment Centre:** `assessment/index.html` — interactive MCQs for business foundations, marketing and a business case, with immediate explanations and locally stored result history.
+- **Business Break-Even Calculator:** `tools/business-break-even-calculator.html` — contribution, break-even units/revenue, operating profit, margin of safety and CSV export.
+- Homepage navigation now links to the assessment centre and both simulators. Catalogue items for the Marketing Budget Simulator and Business Break-Even Calculator route directly to their tools.
+
+All assessments and calculations are educational practice only. Results are stored locally in the current browser; no account or cloud synchronization is provided.
