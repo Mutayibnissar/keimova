@@ -44,7 +44,9 @@ Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub inte
 All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
 
 
-## Assessment and finance practice
+## Learning paths, assessment and finance practice
+
+- **Learning Path Finder:** `learning-paths/index.html` — a six-question rules-based questionnaire that recommends an ordered starting path across the six interactive courses. Users can save the recommendation in browser local storage. It is not an AI-powered or validated ability assessment.
 
 - **Assessment Centre:** `assessment/index.html` — interactive MCQs for business foundations, marketing and a business case, with immediate explanations and locally stored result history.
 - **Business Break-Even Calculator:** `tools/business-break-even-calculator.html` — contribution, break-even units/revenue, operating profit, margin of safety and CSV export.
