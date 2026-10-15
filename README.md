@@ -44,6 +44,10 @@ Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub inte
 All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
 
 
+## Adaptive Next-Step Recommendations
+
+- The dashboard suggests courses to start or revisit using locally stored lesson completion and quiz results. Low quiz scores and unfinished courses are prioritised. This is transparent, rule-based guidance, not AI, certification, or a validated skill assessment.
+
 ## Connected Learning Journey
 
 - The dashboard includes a five-stage journey tracker: choose a path, learn, get study support, apply knowledge, and test understanding. It reads local browser activity from the learning path, six course records, study-guide count, project history, and assessment history. No cloud sync or account profile is implied.
