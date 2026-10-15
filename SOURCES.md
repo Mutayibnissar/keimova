@@ -37,3 +37,8 @@ Learning-item modals provide a topic-specific Google Scholar search plus a relev
 ## Prototype status
 
 The current catalogue contains sample course descriptions and learning objectives. It is not yet a full LMS or a verified academic course library. Before public launch, each course should gain a curated bibliography, lesson-level citations, reviewed assessments, clear licences, version/review dates and accessible source links. No certification, job, income or academic-credit outcome should be promised unless separately established.
+
+
+## Course-level publication gate
+
+The source map and audit backlog is maintained in [`curriculum/COURSE_SOURCE_MAP.md`](curriculum/COURSE_SOURCE_MAP.md). Every course must map its lessons to specific original source sections and check assessment answer keys before being described as evidence-reviewed. Linking to Google Scholar or an institution is not sufficient by itself. Existing open courses should be the curricular spine when appropriate; Keimova should link learners to those originals and create original explanations and exercises rather than copying protected course text. Check each licence for commercial-use and AI-related restrictions before reuse.
