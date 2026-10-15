@@ -91,10 +91,26 @@ function render(){let list=items.filter(x=>x.type===activeTab);const q=search.va
 function sourceReferences(item){
  const query=encodeURIComponent(item.title+" "+item.category+" evidence review research");
  const links=[{label:"Google Scholar research",url:"https://scholar.google.com/scholar?q="+query}];
- if(["Business","Finance","Analytics"].includes(item.category)) links.push({label:"OpenStax open textbooks",url:"https://openstax.org/subjects/business"});
- if(item.category==="AI & Technology") links.push({label:"NIST AI Risk Management",url:"https://airc.nist.gov/airmf-resources/airmf/"});
- if(item.category==="Human Resources") links.push({label:"CIPD research & factsheets",url:"https://www.cipd.org/en/knowledge/"});
- if(item.category==="Marketing") links.push({label:"American Marketing Association",url:"https://www.ama.org/"});
+ const curated={
+  1:[{label:"OpenStax: Principles of Management",url:"https://openstax.org/books/principles-management/pages/4-1-the-organizations-external-environment"}],
+  2:[{label:"AMA: Definition of Marketing",url:"https://www.ama.org/the-definition-of-marketing-what-is-marketing/"}],
+  3:[{label:"CIPD: HRM evidence review",url:"https://www.cipd.org/en/knowledge/evidence-reviews/impact-hr-management/"}],
+  6:[{label:"NIST: AI Risk Management Framework",url:"https://airc.nist.gov/airmf-resources/airmf/"}],
+  8:[{label:"CIPD: People management evidence",url:"https://www.cipd.org/en/knowledge/evidence-reviews/people-managers/"}],
+  9:[{label:"OpenStax: Principles of Management",url:"https://openstax.org/books/principles-management/pages/4-1-the-organizations-external-environment"}],
+  10:[{label:"AMA: Marketing concepts",url:"https://www.ama.org/the-definition-of-marketing-what-is-marketing/"}],
+  11:[{label:"CIPD: HRM evidence review",url:"https://www.cipd.org/en/knowledge/evidence-reviews/impact-hr-management/"}],
+  13:[{label:"NIST: AI Risk Management Framework",url:"https://airc.nist.gov/airmf-resources/airmf/"}],
+  15:[{label:"AMA: Definition of Marketing",url:"https://www.ama.org/the-definition-of-marketing-what-is-marketing/"}],
+  17:[{label:"NIST: AI Risk Management Framework",url:"https://airc.nist.gov/airmf-resources/airmf/"}],
+  18:[{label:"OpenStax: Principles of Management",url:"https://openstax.org/books/principles-management/pages/4-1-the-organizations-external-environment"}],
+  20:[{label:"CIPD: HRM evidence review",url:"https://www.cipd.org/en/knowledge/evidence-reviews/impact-hr-management/"}]
+ };
+ if(curated[item.id]) links.push(...curated[item.id]);
+ if(item.category==="Business"||item.category==="Finance"||item.category==="Analytics") links.push({label:"OpenStax open textbooks",url:"https://openstax.org/subjects/business"});
+ if(item.category==="AI & Technology"&&!curated[item.id]) links.push({label:"NIST AI Risk Management",url:"https://airc.nist.gov/airmf-resources/airmf/"});
+ if(item.category==="Human Resources"&&!curated[item.id]) links.push({label:"CIPD research & factsheets",url:"https://www.cipd.org/en/knowledge/"});
+ if(item.category==="Marketing"&&!curated[item.id]) links.push({label:"American Marketing Association",url:"https://www.ama.org/"});
  if(item.category==="Career Skills") links.push({label:"OpenLearn free courses",url:"https://www.open.edu/openlearn/"});
  return links;
 }
