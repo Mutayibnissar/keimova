@@ -44,6 +44,10 @@ Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub inte
 All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
 
 
+## Connected Learning Journey
+
+- The dashboard includes a five-stage journey tracker: choose a path, learn, get study support, apply knowledge, and test understanding. It reads local browser activity from the learning path, six course records, study-guide count, project history, and assessment history. No cloud sync or account profile is implied.
+
 ## Study Assistant
 
 - **Study Assistant:** `study-assistant/index.html` — guided modes for concept scaffolding, retrieval-practice prompts, case-study structure and prompt improvement. The current interface is a transparent template-based demo; it is not connected to a language model or external API. A production AI connection needs a secured server-side endpoint and API key stored as a server secret.
