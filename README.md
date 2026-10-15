@@ -32,3 +32,12 @@ This is a front-end prototype. Progress and saved items are stored only in the c
 
 ## Reference and originality
 Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub interaction patterns rather than using Crio branding or claiming affiliation with Crio.Do.
+
+
+## Interactive learning tools
+
+- **My Learning Dashboard:** `dashboard/index.html` — summarizes locally stored course completion, quiz scores, saved items and started catalogue items; supports JSON progress export and course-progress reset.
+- **Marketing Budget Simulator:** `tools/marketing-budget-simulator.html` — models clicks, conversions, revenue, gross profit, modeled net, ROAS, break-even conversions and alternative conversion-rate scenarios; supports CSV export.
+- **Interactive courses:** `courses/business-administration-essentials.html` and `courses/marketing-strategy-growth.html`.
+
+All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
