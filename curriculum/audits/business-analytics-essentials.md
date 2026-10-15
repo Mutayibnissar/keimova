@@ -38,3 +38,24 @@ Separate calculation correctness from interpretation quality. Keep simulated exa
 
 **Reviewer:** automated editorial/source-mapping pass; no independent statistics/data-protection expert review recorded.  
 **Open work:** inspect the relevant OpenIntro chapter text and reuse/license terms; add dedicated sources for experimental design/causal inference if taught in depth; test SQL against a defined schema; review privacy wording for target jurisdictions; perform browser-level interaction tests.
+
+
+## Follow-up source audit — 15 October 2026
+
+### OpenIntro chapter specificity
+- The OpenIntro Statistics 4th-edition contents identify Chapter 2 as “Summarizing data,” with §2.1 “Examining numerical data” and §2.2 “Considering categorical data.” The official screen-reader/tablet PDF resource exposes the book contents and is now used as a more useful learner link than repeating the generic landing page: https://www.openintro.org/go/?id=os4_tablet.
+- This pass confirms the assigned source and its chapter map, but does **not** record a complete page-by-page inspection of every Chapter 2 section. The course's mean/median example was independently recalculated; it remains an original illustrative example, not copied textbook material.
+- OpenIntro's public download page offers the book in downloadable formats, but commercial reuse rights must be checked against the specific edition's licence before any material is reproduced or adapted. A free download is not, by itself, a commercial reuse licence.
+
+### Privacy source currency
+- NIST's Privacy Framework homepage now surfaces the **Privacy Framework 1.1 Initial Public Draft** alongside the published 1.0 framework. The 1.1 document is explicitly a draft, not a final replacement; the course links to the NIST homepage rather than presenting a draft as binding or final. NIST states the framework is voluntary and not law: https://www.nist.gov/privacy-framework/privacy-framework and https://csrc.nist.gov/pubs/cswp/40/nist-privacy-framework-11/ipd.
+- The lesson should continue to say “applicable law and organisational policy”; a U.S. NIST framework cannot determine compliance with Indian privacy law or other jurisdictions' requirements.
+
+### SQL lesson coverage
+- The course already linked SQLBolt Lesson 10 for aggregates and GROUP BY. Added Lesson 11 as a direct follow-on for HAVING and filtering grouped results: https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_2.
+- The example query is syntactically plausible for a conventional relational database, but this audit has not executed it against a real schema or tested database-specific behavior. “completed” status, table name, row granularity and duplicate handling are assumptions that a real project must validate.
+
+### Assessment and publication status
+- Rechecked the three current answer keys: question 1 index 1; question 2 index 1; question 3 index 1. The arithmetic remains consistent: 100 / 2,000 = 0.05 = 5%.
+- This remains a short formative quiz, not a validated assessment. No independent statistician/data-protection review, end-to-end browser test, or commercial licence review has been completed.
+- Keep status **source-mapped — review in progress**. Do not call the course “research-backed” solely because it links to a textbook or frameworks.
