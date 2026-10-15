@@ -4,7 +4,7 @@ Keimova is a responsive learning-hub prototype for practical business, career an
 
 ## Current prototype
 - Five catalogues: Courses, Roadmaps, Masterclasses, Resources and Simulators
-- Three dedicated interactive courses: Business Administration Essentials, Marketing Strategy & Growth, and HR Management Essentials, each with five lessons, completion tracking, quiz feedback and further-reading links
+- Four dedicated interactive courses: Business Administration Essentials, Marketing Strategy & Growth, HR Management Essentials, and Finance Foundations, each with five lessons, completion tracking, quiz feedback and further-reading links
 - First interactive course: `courses/business-administration-essentials.html` with five lessons, completion tracking, knowledge-check feedback and source links
 - Search, subject filters, level filters and alphabetical sorting
 - Learning-item detail modals with learning objectives and topic-specific Google Scholar/trusted reference links
@@ -38,7 +38,7 @@ Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub inte
 
 - **My Learning Dashboard:** `dashboard/index.html` — summarizes locally stored course completion, quiz scores, saved items and started catalogue items; supports JSON progress export and course-progress reset.
 - **Marketing Budget Simulator:** `tools/marketing-budget-simulator.html` — models clicks, conversions, revenue, gross profit, modeled net, ROAS, break-even conversions and alternative conversion-rate scenarios; supports CSV export.
-- **Interactive courses:** `courses/business-administration-essentials.html`, `courses/marketing-strategy-growth.html` and `courses/hr-management-essentials.html`.
+- **Interactive courses:** `courses/business-administration-essentials.html`, `courses/marketing-strategy-growth.html`, `courses/hr-management-essentials.html` and `courses/finance-foundations.html`.
 - **Reusable course engine:** `assets/course-engine.js` — shared rendering, lesson navigation, completion tracking, quizzes, notes and JSON progress export for data-driven course pages.
 
 All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
@@ -49,6 +49,6 @@ All progress remains in browser local storage. There is no account system or clo
 - **Assessment Centre:** `assessment/index.html` — interactive MCQs for business foundations, marketing and a business case, with immediate explanations and locally stored result history.
 - **Business Break-Even Calculator:** `tools/business-break-even-calculator.html` — contribution, break-even units/revenue, operating profit, margin of safety and CSV export.
 - **Pricing & Cash Flow Lab:** `tools/pricing-cash-flow-lab.html` — models contribution, contribution margin, break-even volume, operating profit, sales cash collection, simplified closing cash and cash runway; supports CSV export.
-- Homepage navigation now links to the assessment centre and the Marketing Budget, Break-Even, and Pricing & Cash Flow tools. Catalogue items for Business Administration Essentials, Marketing Strategy & Growth and HR Management Essentials route to their course pages; the Marketing Budget Simulator and Business Break-Even Calculator route directly to their tools.
+- Homepage navigation now links to the assessment centre and the Marketing Budget, Break-Even, and Pricing & Cash Flow tools. Catalogue items for Business Administration Essentials, Marketing Strategy & Growth, HR Management Essentials and Finance Foundations route to their course pages; the Marketing Budget Simulator and Business Break-Even Calculator route directly to their tools.
 
 All assessments and calculations are educational practice only. Results are stored locally in the current browser; no account or cloud synchronization is provided.
