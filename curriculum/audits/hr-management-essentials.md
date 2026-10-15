@@ -24,3 +24,12 @@ CIPD evidence reviews are evidence summaries; check their underlying research an
 
 **Reviewer:** automated editorial/source-mapping pass; no independent HR specialist review recorded.  
 **Open work:** source individual factual claims; confirm jurisdiction-specific legal statements with current authoritative law; assessment and licence review.
+
+
+## Source inspection log — 15 October 2026
+
+- Inspected the CIPD HRM scientific-summary PDF: https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/2025-pdfs/8959-impact-of-hrm-evidence-review.pdf. The summary describes the evidence volume as high but quality as moderate and cautions that not all relationships establish causation.
+- Inspected the CIPD fair-selection review landing page: https://www.cipd.org/en/knowledge/evidence-reviews/evidence-fair-selection/. Its stated scope is fair selection in recruitment and promotion. Underlying scientific summary and studies still need review.
+- Inspected the CIPD effective-people-managers practice summary: https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/2023-pdfs/8424-effective-people-managers-practice-summary.pdf. Recommendations include training-needs analysis, varied learning methods including experiential learning, and day-to-day development opportunities.
+
+Remaining work: inspect fair-selection primary evidence, source training-transfer claims more specifically, and obtain independent HR specialist and licensing review. Status remains **source-mapped — review in progress**.
