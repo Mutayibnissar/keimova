@@ -42,3 +42,11 @@ Remaining work: inspect fair-selection primary evidence, source training-transfe
 - The effective-people-managers practice summary recommends training-needs analysis, varied learning methods including experiential learning, and development opportunities in day-to-day work. This supports the lesson's practical emphasis on practice and workplace application; it does not establish that any one intervention always works.
 
 Open work remains: inspect the fair-selection scientific summary in detail and trace key claims to original studies; inspect evidence for training transfer and workforce planning; check local employment law separately for any jurisdiction-specific content; independent HR review, assessment review and browser testing. Status remains **source-mapped — review in progress**.
+
+
+## Follow-up lesson source-fit review — 15 October 2026
+- Removed a duplicate link to the same CIPD HRM scientific-summary PDF in Workforce Planning and Job Design.
+- Replaced the people-managers evidence-review link in Recruitment, Selection and Fairness with CIPD's current Selection Methods factsheet: https://www.cipd.org/en/knowledge/factsheets/selection-factsheet. The factsheet describes structured interviews, predefined questions, consistent scoring criteria, and job-related assessment; its scope matches this lesson more directly. It is professional guidance, not a substitute for reviewing the cited primary studies or applicable local law.
+- Replaced the fair-selection PDF in Employee Experience and Evidence-Informed Decisions with the CIPD HRM scientific summary: https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/2025-pdfs/8959-impact-of-hrm-evidence-review.pdf. Fair-selection research alone did not adequately cover the broader HRM and workplace-outcome framing of that lesson.
+- The CIPD HRM scientific summary describes a substantial evidence base but moderate overall quality, with methodological weaknesses in some reviews. Keep the course's non-causal, context-sensitive wording.
+- The updates improve source-to-topic fit and navigation; they do not complete claim-by-claim validation, primary-study appraisal, local employment-law review, licence review, independent HR SME review or browser testing. Status remains **source-mapped — review in progress**.
