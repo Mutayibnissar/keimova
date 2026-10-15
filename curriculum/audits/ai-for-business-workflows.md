@@ -24,3 +24,23 @@ Clearly distinguish standards guidance from law and vendor documentation from in
 
 **Reviewer:** automated editorial/source-mapping pass; no independent AI governance or legal review recorded.  
 **Open work:** map each claim to exact NIST section numbers; test examples on representative cases; check data-protection and sector-specific requirements for the intended jurisdictions; review assessment and source reuse terms.
+
+
+## Source inspection log — 15 October 2026
+
+### Direct sources inspected
+- **NIST AI RMF 1.0**, NIST AI 100-1, official PDF: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf. The framework describes four functions—GOVERN, MAP, MEASURE and MANAGE—and positions governance across the AI lifecycle. Its measures include testing before deployment and regularly during operation. This supports the course's lifecycle, risk-owner and monitoring themes; it does not establish that a particular workflow is safe merely because a checklist is completed.
+- **NIST Generative AI Profile**, NIST AI 600-1, official PDF: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf. It is a cross-sectoral companion profile for generative AI and proposes risk-management actions across the lifecycle. It is guidance, not a substitute for use-case-specific validation or applicable law.
+- **NIST AI RMF Core**, official section page: https://airc.nist.gov/airmf-resources/airmf/5-sec-core/. It explains that the four functions are divided into categories and subcategories and that the actions are not a rigid checklist or necessarily ordered steps.
+- **OpenAI prompt engineering guide**, official vendor documentation: https://developers.openai.com/api/docs/guides/prompt-engineering. It recommends representative prompt tests/evaluation suites and notes output non-determinism and model-version differences. This is vendor guidance, not independent empirical evidence; the course should not imply a single prompt template guarantees accuracy.
+
+### Claim-level review and limitations
+- The course's task definition, iterative evaluation, human approval, and monitoring principles are consistent with the inspected frameworks at a high level.
+- The course's six-part prompt structure is an original teaching template, not a standard or empirically proven universal formula.
+- “High-impact decisions” is deliberately broad and should be supplemented with jurisdiction- and sector-specific examples before publication for a particular market.
+- The quiz key remains internally consistent: question 1 answer index 1, question 2 answer index 2, question 3 answer index 1. This is a small formative check, not a validated competency assessment.
+- No individual peer-reviewed empirical study was inspected in this pass. This course is principally an applied framework-based introduction, not a research review.
+- No legal/privacy counsel review, independent AI-governance SME review, live browser interaction test, or full production deployment test was performed.
+
+### Remaining publication gate
+Keep the status **source-mapped — review in progress**. Before claiming “verified” or “research-backed,” map important claims to exact NIST sections, test the practical workflow on representative examples, review local data-protection and sector rules, inspect source reuse terms, and obtain independent subject-matter and assessment review.
