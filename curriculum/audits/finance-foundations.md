@@ -35,3 +35,12 @@ All worked examples should remain labelled illustrative. Do not present a ratio 
 - Replaced an incorrect section URL in the first lesson source list and replaced generic textbook catalogue links with more specific section links where the course topic matched. Budgeting/variance analysis still needs a dedicated source section; no independent accountant review or browser interaction test has been completed.
 
 The course remains **source-mapped — review in progress**. OpenStax pages are links for learner reference; the course should continue to use independently written explanations and must not reproduce textbook passages or assessment items without licence review, especially for commercial use.
+
+
+## Follow-up source inspection — 15 October 2026
+
+- Inspected OpenStax *Principles of Accounting, Volume 2: Managerial Accounting* section 7.5, “Explain How Budgets Are Used to Evaluate Goals.” It says variance analysis helps identify where a problem may exist, but a variance alone does not establish a cause; static-budget comparisons can also mislead when actual activity differs from planned activity. Source: https://openstax.org/books/principles-managerial-accounting/pages/7-5-explain-how-budgets-are-used-to-evaluate-goals.
+- Inspected section 8.5, “Describe How Companies Use Variance Analysis.” It describes comparing results against standards, investigating both favourable and unfavourable variances, and the risks of short-term decisions or budget slack. Source: https://openstax.org/books/principles-managerial-accounting/pages/8-5-describe-how-companies-use-variance-analysis.
+- Updated the course's budgeting lesson to link directly to sections 7.5 and 8.5, and replaced a Scholar search on working capital with the relevant cash-flow and working-capital sections. The fictional ₹45,000 actual spend against ₹40,000 budget yields a ₹5,000 overspend; this arithmetic does not by itself prove poor performance or campaign failure.
+
+Open work: review the precise definitions and context of all ratio formulas, confirm debt-to-equity wording for the intended accounting context, check the cash-flow lesson against its source text, and conduct independent accountant, licensing and browser-interaction review. Status remains **source-mapped — review in progress**.
