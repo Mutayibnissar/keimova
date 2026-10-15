@@ -107,3 +107,8 @@ Every published lesson should contain:
 ## Next production step
 
 Convert the starter maps into individual lessons only after the lesson-level evidence table is populated. For each factual claim, retain the exact source and the page/section that supports it. A link in the Keimova interface is a starting point for verification, not proof that the content has already passed peer review.
+
+
+## Course source map and review status
+
+Use [COURSE_SOURCE_MAP.md](COURSE_SOURCE_MAP.md) as the course-by-course reference map and publication gate. The existing lesson pages are not automatically considered fully reviewed because a bibliography exists. Every factual claim, worked calculation, and quiz answer must be checked against its original source section. Prefer adapting the sequence of established open courses and linking to the originals; write original explanations and practice tasks and respect each licence.
