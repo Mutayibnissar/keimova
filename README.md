@@ -44,6 +44,10 @@ Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub inte
 All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
 
 
+## Practical Project Lab
+
+- **Practical Project Lab:** `project-lab/index.html` — fictional marketing, finance and HR cases; learner response fields; a transparent 10-point completeness rubric; browser-local drafts and history; JSON export. The automated rubric uses simple text checks and is a reflection aid, not an AI evaluator or formal grading system.
+
 ## Learning paths, assessment and finance practice
 
 - **Learning Path Finder:** `learning-paths/index.html` — a six-question rules-based questionnaire that recommends an ordered starting path across the six interactive courses. Users can save the recommendation in browser local storage. It is not an AI-powered or validated ability assessment.
