@@ -120,3 +120,16 @@ Before a lesson is marked reviewed, add a record containing:
 ## Publication gate
 
 Do not label a course "verified", "research-backed", or "peer-reviewed" solely because it links to Google Scholar or a reputable institution. Until lesson-level checks and answer-key checks are completed, label it **source-mapped — review in progress**. If a claim has no suitable source, remove it, soften it, or mark it as an illustrative hypothesis. Use official existing course pages as the learning reference when they offer better coverage than a short custom summary.
+
+## Lesson-level audit records
+
+The following audit records document current lesson objectives, source candidates, quiz logic/arithmetic checks, licensing limits, and unresolved review work. These are editorial/source-mapping records, **not certification that every claim has passed independent verification**.
+
+- [Business Administration Essentials audit](audits/business-administration-essentials.md)
+- [Marketing Strategy & Growth audit](audits/marketing-strategy-growth.md)
+- [HR Management Essentials audit](audits/hr-management-essentials.md)
+- [Finance Foundations audit](audits/finance-foundations.md)
+- [Business Analytics Essentials audit](audits/business-analytics-essentials.md)
+- [AI for Business Workflows audit](audits/ai-for-business-workflows.md)
+
+**Next quality gate:** make the lesson-specific sources visible in the live course UI, check each claim against the exact source passage, add original research records only when an empirical claim needs them, test each quiz and worked calculation, then request human subject-matter and licensing review before using any “verified” or “research-backed” label.
