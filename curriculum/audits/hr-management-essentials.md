@@ -33,3 +33,12 @@ CIPD evidence reviews are evidence summaries; check their underlying research an
 - Inspected the CIPD effective-people-managers practice summary: https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/2023-pdfs/8424-effective-people-managers-practice-summary.pdf. Recommendations include training-needs analysis, varied learning methods including experiential learning, and day-to-day development opportunities.
 
 Remaining work: inspect fair-selection primary evidence, source training-transfer claims more specifically, and obtain independent HR specialist and licensing review. Status remains **source-mapped — review in progress**.
+
+
+## Follow-up source inspection — 15 October 2026
+
+- Reviewed the CIPD fair-selection evidence review landing page and located its scientific summary PDF: https://www.cipd.org/globalassets/media/knowledge/knowledge-hub/evidence-reviews/2023-pdfs/fair-selection-evidence-scientific-summary.pdf. The review concerns fairness in recruitment and promotion. The course's structured, job-related criteria guidance is consistent with the review's scope, but specific claims about validity or subgroup outcomes require direct review of the underlying studies and should not be quantified from the landing page alone.
+- Replaced the course's Google Scholar discovery links with direct CIPD evidence-summary/practice-summary links. These are more navigable, but they remain secondary evidence summaries rather than a substitute for checking the primary studies.
+- The effective-people-managers practice summary recommends training-needs analysis, varied learning methods including experiential learning, and development opportunities in day-to-day work. This supports the lesson's practical emphasis on practice and workplace application; it does not establish that any one intervention always works.
+
+Open work remains: inspect the fair-selection scientific summary in detail and trace key claims to original studies; inspect evidence for training transfer and workforce planning; check local employment law separately for any jurisdiction-specific content; independent HR review, assessment review and browser testing. Status remains **source-mapped — review in progress**.
