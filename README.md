@@ -44,6 +44,10 @@ Reference: https://resources.criodo.com/. Keimova adapts broad resource-hub inte
 All progress remains in browser local storage. There is no account system or cloud synchronization. Simulator outputs are assumption-based estimates, not forecasts. Full browser/device testing and live Pages deployment still need verification.
 
 
+## Skills Profile & Portfolio
+
+- `skills-profile/index.html` summarises browser-local course completion, quiz results, assessment attempts, study-guide count and saved Practical Project Lab submissions. It provides a JSON export and transparent practice indicators; it is not a certification or validated competency assessment.
+
 ## Adaptive Next-Step Recommendations
 
 - The dashboard suggests courses to start or revisit using locally stored lesson completion and quiz results. Low quiz scores and unfinished courses are prioritised. This is transparent, rule-based guidance, not AI, certification, or a validated skill assessment.
