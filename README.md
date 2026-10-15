@@ -11,6 +11,11 @@ Keimova is a responsive learning-hub prototype for practical business, career an
 - Responsive desktop/mobile navigation and reduced-motion support
 - Sample content across Business Administration, Marketing, HR, Finance, Analytics, AI & Technology, and Career Skills
 
+## Evidence-based curriculum
+- `SOURCES.md` documents source quality rules, citation expectations and review workflow.
+- `curriculum/STARTER_CURRICULUM.md` maps five starter courses to learning outcomes, lesson sequences, assessments and initial authoritative references.
+- Item detail modals provide topic-specific Google Scholar searches and selected official/professional references. These links are discovery aids; the sample catalogue is not yet fully fact-checked or peer-reviewed.
+
 ## Run locally
 Open `index.html` in a modern browser. No build step or package installation is required.
 
